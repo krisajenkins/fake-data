@@ -31,6 +31,7 @@ pub struct Address {
 #[derive(Debug, Parser)]
 #[command(version, about, long_about = None)]
 struct Cli {
+    /// Number of records to generate.
     number: usize,
 }
 
